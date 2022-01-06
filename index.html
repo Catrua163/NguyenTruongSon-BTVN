@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>JavaScript String Methods</h1>
+<h3>let txt = "Hello World!" </h3>
+<ul>
+    <li>length
+        <br>console.log(txt.length);
+        <br>outoput: 12
+    </li>
+    <li>slice()
+        <br>console.log(txt.slice(2,8));
+        <br>output: llo Wor
+        <br>console.log(txt.slice(1));
+        <br>output: ello World!
+        <br>console.log(txt.slice(-6));
+        <br>output: World!
+    </li>
+    <li>toUpperCase()
+        <br>console.log(txt.toUpperCase());
+        <br>output: HELLO WORLD!
+    </li>
+    <li>toLowerCase()
+        <br>console.log(txt.toLowerCase());
+        <br>output: hello world!
+    </li>
+    <li>Replacing string content
+        <br>console.log(txt.replace("World", "Vietnam!"));
+        <br>output: Hello Vietnam!
+    </li>
+    <li>concat()
+        <br>let txt2 = "Wassup-"
+        <br>let txt3 = txt2.concat(txt);
+        <br>console.log(txt3);
+        <br>output = Wassup-Hello World!
+    </li>
+</ul>
+</body>
+<script src="main.js"></script>
+</html>
