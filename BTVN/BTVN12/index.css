@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #fffdfd;
+}
+.login {
+    width: 360px;
+    background-color: #7f6c8a;
+    border-radius: 10px;
+    
+}
+h2 {
+    text-align: center;
+    padding-top: 12px;
+}
+form {
+    padding: 10px; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+div.username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.password {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.submit {
+    padding: 12px 0px;
+    text-align: center;
+}
+button.submit {
+    font-size: 20px;
+    
+}
+button.submit:hover {
+    opacity: 0.5;
+  }
+#error {
+    color: rgb(255, 255, 255);
+    text-align:center;
+}
